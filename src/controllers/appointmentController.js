@@ -57,6 +57,7 @@ async function deleteAppointment(req, res) {
     await Appointment.findByIdAndDelete(id);
     res.json({ success: true, message: "Appointment deleted" });
   } catch (err) {
+    console.error("BOOKING ERROR:", err); // 👈 This will show up in your Render logs!
     res.status(500).json({ error: "Server error" });
   }
 }

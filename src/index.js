@@ -18,7 +18,7 @@ app.set("trust proxy", 1);
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://doc-appoint-client.vercel.app",
+  "https://doc-appoint-client-side.vercel.app",
   process.env.CLIENT_URL,
 ].filter(Boolean);
 

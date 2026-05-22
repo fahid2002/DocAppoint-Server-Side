@@ -36,7 +36,7 @@ DocAppoint Server is the REST API backend powering the [DocAppoint](https://doc-
 - Node.js 18+
 - MongoDB Atlas account
 - Google OAuth credentials
-- The [DocAppoint Client](https://github.com/fahid2002/DocAppoint-Client) running on `localhost:3000`
+- The [DocAppoint Client](https://github.com/fahid2002/DocAppoint-Client-Side) running on `localhost:3000`
 
 ### Setup
 
